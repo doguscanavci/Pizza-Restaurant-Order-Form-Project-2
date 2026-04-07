@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // useState eklendi
+import React, { useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
 import OrderPizza from './components/OrderPizza';
