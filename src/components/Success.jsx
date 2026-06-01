@@ -13,7 +13,7 @@ const Success = ({ orderData }) => {
       <header className="w-full flex justify-center mt-24 md:mt-12 mb-10 md:mb-16">
         {/* Vercel build hatasına sebep olan küçük harfli yol, büyük harfli /Images/ olarak güncellendi */}
         <img 
-          src="/Images/iteration-1-images/logo.svg" 
+          src="/images/iteration-1-images/logo.svg" 
           alt="Logo" 
           className="w-[280px] md:w-[350px]" 
         />

@@ -4,8 +4,8 @@ import { useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-const logo = '/Images/iteration-1-images/logo.svg';
-const banner = '/Images/iteration-2-images/pictures/form-banner.png';
+const logo = '/images/iteration-1-images/logo.svg';
+const banner = '/images/iteration-2-images/pictures/form-banner.png';
 
 const OrderPizza = ({ setOrderData }) => {
   const history = useHistory();

@@ -15,14 +15,14 @@
         {/* ========================== 1.BÖLÜM // BANNER ========================== */}
         <section className="relative w-full min-h-screen overflow-hidden">
           <img 
-            src="/Images/iteration-1-images/home-banner.png" 
+            src="/images/iteration-1-images/home-banner.png" 
             alt="Banner" 
             className="absolute inset-0 w-full h-full object-cover"
           />
 
           <div className="relative z-10 flex flex-col items-center text-center pt-[5vh] px-4 w-full">
             <img 
-              src="/Images/iteration-1-images/logo.svg" 
+              src="/images/iteration-1-images/logo.svg" 
               alt="Logo" 
               className="w-[200px] md:w-[350px] mb-12 md:mb-16"
             />
@@ -63,7 +63,7 @@
                   className="flex items-center gap-3 group cursor-pointer whitespace-nowrap min-w-[140px] md:min-w-0"
                 >
                   <img 
-                    src={`/Images/iteration-2-images/icons/${cat.id}.svg`} 
+                    src={`/images/iteration-2-images/icons/${cat.id}.svg`} 
                     alt="" 
                     className="w-10 h-10 object-contain" 
                   />
@@ -94,7 +94,7 @@
                 </button>
               </div>
               <img 
-              src="/Images/iteration-2-images/cta/kart-1.png"
+              src="/images/iteration-2-images/cta/kart-1.png"
               alt="Özel Lezzetus Pizza"
               className="absolute pointer-events-none z-0 bottom-[-10px] right-[-40px] min-w-[440px] w-[95%] h-auto md:bottom-[-40px] md:right-[-40px] md:min-w-0 md:w-auto md:h-[115%] md:max-w-none" 
               />
@@ -117,7 +117,7 @@
                   </button>
                 </div>
                 <img 
-                  src="/Images/iteration-2-images/cta/kart-2.png" 
+                  src="/images/iteration-2-images/cta/kart-2.png" 
                   className="absolute right-5 bottom-10 h-full w-[75%] object-contain object-right-bottom" 
                   alt="Burger Menü"
                 />
@@ -137,7 +137,7 @@
                   </button>
                 </div>
                 <img 
-                  src="/Images/iteration-2-images/cta/kart-3.png" 
+                  src="/images/iteration-2-images/cta/kart-3.png" 
                   className="absolute inset-0 w-full h-full object-cover z-0" 
                   alt="Hızlı Kurye"
                 />
@@ -175,7 +175,7 @@
                   ${i === 1 ? 'bg-[#292929] text-white' : 'bg-white text-gray-800 hover:bg-gray-100'}`}
               >
                 <img 
-                  src={`/Images/iteration-2-images/icons/${item.icon}`} 
+                  src={`/images/iteration-2-images/icons/${item.icon}`} 
                   alt={item.name} 
                   className={`w-10 h-10 object-contain ${i === 1 ? 'brightness-200' : ''}`} 
                 />
@@ -195,7 +195,7 @@
                 className="bg-white p-10 rounded-2xl shadow-sm hover:shadow-lg transition-all flex flex-col items-start text-left cursor-pointer"
               >
                 <img 
-                  src={`/Images/iteration-2-images/pictures/food-${id}.png`} 
+                  src={`/images/iteration-2-images/pictures/food-${id}.png`} 
                   alt="" 
                   className="w-full h-auto aspect-square mb-10 object-contain mx-auto" 
                 />
@@ -216,21 +216,21 @@
           <div className="max-w-[1072px] w-full px-12 grid grid-cols-1 md:grid-cols-3 gap-16 mb-16 items-start">
             <div className="flex flex-col items-start md:-mt-8">
               <img 
-                src="/Images/iteration-2-images/footer/logo-footer.svg" 
+                src="/images/iteration-2-images/footer/logo-footer.svg" 
                 alt="Footer Logo" 
                 className="w-[200px] mb-8 md:mt-[-12px]" 
               />
               <div className="space-y-6 text-normal text-white-400 font-['Barlow']">
                 <p className="flex items-start gap-3 justify-start leading-relaxed">
-                  <img src="/Images/iteration-2-images/footer/icons/icon-1.png" className="w-5 mt-1" alt="" />
+                  <img src="/images/iteration-2-images/footer/icons/icon-1.png" className="w-5 mt-1" alt="" />
                   <span>341 Londonderry Road,<br /> İstanbul Türkiye</span>
                 </p>
                 <p className="flex items-center gap-3 justify-start">
-                  <img src="/Images/iteration-2-images/footer/icons/icon-2.png" className="w-5" alt="" />
+                  <img src="/images/iteration-2-images/footer/icons/icon-2.png" className="w-5" alt="" />
                   aciktim@teknolojikyemekler.com
                 </p>
                 <p className="flex items-center gap-3 justify-start">
-                  <img src="/Images/iteration-2-images/footer/icons/icon-3.png" className="w-5" alt="" />
+                  <img src="/images/iteration-2-images/footer/icons/icon-3.png" className="w-5" alt="" />
                   +90 216 123 45 67
                 </p>
               </div>
@@ -260,7 +260,7 @@
                 {[0, 1, 2, 3, 4, 5].map(i => (
                   <img 
                     key={i} 
-                    src={`/Images/iteration-2-images/footer/insta/li-${i}.png`} 
+                    src={`/images/iteration-2-images/footer/insta/li-${i}.png`} 
                     className="w-full rounded-lg object-cover aspect-square" 
                     alt="" 
                   />
