@@ -236,11 +236,11 @@ const OrderPizza = ({ setOrderData }) => {
       <footer className="hidden md:flex bg-[#1A1A1A] text-white pt-20 pb-10 w-full flex-col items-center">
         <div className="max-w-[1072px] w-full px-8 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-12 mb-16 items-start">
           <div className="flex flex-col items-start md:-mt-8">
-            <img src="/Images/iteration-2-images/footer/logo-footer.svg" alt="Footer Logo" className="w-[180px] md:w-[200px] mb-8" />
+            <img src="/images/iteration-2-images/footer/logo-footer.svg" alt="Footer Logo" className="w-[180px] md:w-[200px] mb-8" />
             <div className="space-y-6 text-sm">
-              <p className="flex items-start gap-3"><img src="/Images/iteration-2-images/footer/icons/icon-1.png" className="w-5 mt-1" alt="" /><span>341 Londonderry Road,<br /> İstanbul Türkiye</span></p>
-              <p className="flex items-center gap-3"><img src="/Images/iteration-2-images/footer/icons/icon-2.png" className="w-5" alt="" />aciktim@teknolojikyemekler.com</p>
-              <p className="flex items-center gap-3"><img src="/Images/iteration-2-images/footer/icons/icon-3.png" className="w-5" alt="" />+90 216 123 45 67</p>
+              <p className="flex items-start gap-3"><img src="/images/iteration-2-images/footer/icons/icon-1.png" className="w-5 mt-1" alt="" /><span>341 Londonderry Road,<br /> İstanbul Türkiye</span></p>
+              <p className="flex items-center gap-3"><img src="/images/iteration-2-images/footer/icons/icon-2.png" className="w-5" alt="" />aciktim@teknolojikyemekler.com</p>
+              <p className="flex items-center gap-3"><img src="/images/iteration-2-images/footer/icons/icon-3.png" className="w-5" alt="" />+90 216 123 45 67</p>
             </div>
           </div>
           <div className="flex flex-col items-start md:mt-8">
@@ -252,7 +252,7 @@ const OrderPizza = ({ setOrderData }) => {
           <div className="flex flex-col items-start md:mt-8">
             <h4 className="text-xl font-semibold mb-6 md:mb-10">Instagram</h4>
             <div className="grid grid-cols-3 gap-3 max-w-[280px]">
-              {[0,1,2,3,4,5].map(i => <img key={i} src={`/Images/iteration-2-images/footer/insta/li-${i}.png`} className="w-full rounded-lg aspect-square object-cover" alt="" />)}
+              {[0,1,2,3,4,5].map(i => <img key={i} src={`/images/iteration-2-images/footer/insta/li-${i}.png`} className="w-full rounded-lg aspect-square object-cover" alt="" />)}
             </div>
           </div>
         </div>
