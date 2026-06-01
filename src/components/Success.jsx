@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Success = ({ orderData }) => {
 
   if (!orderData) {
@@ -9,8 +11,9 @@ const Success = ({ orderData }) => {
       
       {/* ========================== 1.BÖLÜM // MASAÜSTÜ VE MOBİL HEADER ========================== */}
       <header className="w-full flex justify-center mt-24 md:mt-12 mb-10 md:mb-16">
+        {/* Vercel build hatasına sebep olan küçük harfli yol, büyük harfli /Images/ olarak güncellendi */}
         <img 
-          src="/images/iteration-1-images/logo.svg" 
+          src="/Images/iteration-1-images/logo.svg" 
           alt="Logo" 
           className="w-[280px] md:w-[350px]" 
         />
